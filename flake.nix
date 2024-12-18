@@ -1,5 +1,5 @@
 {
-  description = "DNS server to serve Taylor Swift lyrics";
+  description = "CLI to serve Taylor Swift lyrics";
 
   inputs = { nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable"; };
 
