@@ -9,7 +9,6 @@ import (
 	"strings"
 
 	"github.com/charmbracelet/huh"
-	"github.com/sujay1844/swiftie/swiftie"
 )
 
 //go:embed data/ts_lyrics.csv
@@ -70,4 +69,9 @@ func main() {
 		Filtering(true).
 		WithHeight(10).
 		Run()
+
+	fmt.Println("Name:", song.Name)
+	fmt.Println("Album:", song.AlbumName)
+	fmt.Println(song.Lyrics)
+
 }
